@@ -40,11 +40,16 @@ public class UseBank {
             System.out.println(e1.getMessage());
         }
 
-        System.out.println("Before revision:");
+        System.out.println("\nBefore revision:");
         b1.showAccounts();
         b1.revision();
-        System.out.println("Before revision:");
+        System.out.println("\nBefore revision:");
         b1.showAccounts();
+
+        b1.lottery();
+
+        System.out.println("\nAccounts ordered:");
+        b1.showAccountsOrdered();
 
     }
 

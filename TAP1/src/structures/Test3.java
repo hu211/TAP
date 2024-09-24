@@ -27,13 +27,11 @@ public class Test3 {
 		System.out.println("-No ordering---------------");
 		print(c);
 
-		NameComparator t1 = new NameComparator();
-		Collections.sort(c, t1);
+		Collections.sort(c);
 		System.out.println("-Ordered by name--------");
 		print(c);
 
-		AgeComparator t2 = new AgeComparator();
-		Collections.sort(c, t2);
+		Collections.sort(c);
 		System.out.println("-Ordered by age--------");
 		print(c);
 
